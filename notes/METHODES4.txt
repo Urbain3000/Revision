@@ -1,0 +1,30 @@
+//********************  LES METHODES ****************************************************************************//
+//visibilité /        / type de retour  / nom de la methode  / parametre        / instructions                    /
+    1                         2                  3                4                  5
+  public       static   void              afficherNom          ()                 { System.out.println("Urbain");}
+  public       static   void              afficherCouleur      (String couleur)   { System.out.println(couleur); }
+
+  public       static   String            retournNom           ()                 { return "Urbain";             }
+  public       static   String            retourneCouleur      (String couleur)   { return couleur;              }
+
+
+
+  public       static   int               retournNom            ()                 { return 10;             }
+  public       static   int               retourneCouleur       (String couleur)   { return 2;              }
+
+
+
+
+
+
+
+//************* LES CONSTRUCTEURS*******************************************************************************//
+ //visibilité /        / type de retour  / nom de la methode = nom de la classe  / parametre                           / instructions                    /
+ public                                    Person                                  ()                                  {                                                     }
+ public                                    Person                                  (String nom,String prenom, int age) {this.nom = nom; this.prenom = prenom; this.age = age;}
+
+
+// setters getters
+//visibilité /        / type de retour  / nom de la methode  / parametre        / instructions                    /
+public                  String            getNom               ()                 {return nom;}   // NB IL FAU
+public                  void              setNom               (String nom)       {this.nom = nom;}
